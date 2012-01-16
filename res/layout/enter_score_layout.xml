@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" android:baselineAligned="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:gravity="center">
+        <TextView android:layout_width="wrap_content" android:text="@string/you_lost" android:layout_height="wrap_content" android:id="@+id/you_lost_textview" android:layout_alignParentLeft="true"></TextView>
+        <TextView android:layout_width="wrap_content" android:text="TextView" android:layout_height="wrap_content" android:id="@+id/score_textview" android:layout_toRightOf="@+id/you_lost_textview"></TextView>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:id="@+id/relativeLayout2" android:layout_height="wrap_content" android:gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="@string/your_name"></TextView>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:id="@+id/relativeLayout3" android:layout_height="wrap_content" android:gravity="center_horizontal">
+        <EditText android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/scoreEditText" android:text="@string/default_name"></EditText>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:id="@+id/relativeLayout4" android:layout_height="wrap_content" android:gravity="center_horizontal">
+        <Button android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/button1" android:text="@string/ok" android:onClick="onSaveScoreClick"></Button>
+    </RelativeLayout>
+</LinearLayout>
