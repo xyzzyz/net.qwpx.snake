@@ -1,3 +1,20 @@
-* Snake
-** Author:
+* net.qwpx.snake
+** what is it?
+   this is yet another implementation of old snake game.
+** is it any good?
+   it compiles, run, and, guess what, you can even play!
+** you didn't answer the question!
+   all right, all right. on the one hand, it's crap (sorry). on the
+   other, i used it to pass a course, and not only once, but twice!
+   so, you decide.
+** usage
+   fire up eclipse, blah blah blah.
+** acknowledgments
+   i'd like to thank Grzegorz Grudzinski and Paweł Kozioł for giving
+   me good grades despite of seeing this program.
+** license
+   do with it whatever you want, i'll be happy if you let me know that
+   you find it interesting (i hope you do), or that you use it (wow,
+   what for?).
+** author
    Adam Michalik <adamm@mimuw.edu.pl>
